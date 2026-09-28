@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --blue: #1B3DE8;
+  --lime: #CCFF00;
+  --dark: #0D0D0D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #0D0D0D;
+}
+
+.grid-bg {
+  background-image: 
+    linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
